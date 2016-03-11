@@ -1,2 +1,2 @@
 # open-website
-This repository is used for Git and Github training
+This repository is used for Git and GitHub training
