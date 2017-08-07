@@ -24,3 +24,8 @@ h1 {
     border-radius: 0 0 5px 5px;
 }
 
+p.fungler {
+    padding:5px;
+    color:white;
+    background-color:darkblue;
+}
