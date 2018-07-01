@@ -3,25 +3,24 @@
 body {
     font-family: "Trebuchet MS", Verdana, sans-serif;
     font-size: 16px;
-    background-color: dimgrey;
+    background-color: #345885;
     color: #696969;
-    padding: 3px;
+    padding: 5px;
 }
 
 h1 {
     font-family: Georgia, serif;
-    border-bottom: 3px solid #0000ff;
-    color: #0066FF;
-    font-size: 30px;
+    border-bottom: 2px solid #345885;
+    color: #345885; 
+    font-size: 32px;
+    line-height: 1.5em;
+    margin-bottom: 30px;
 }
 
 /* page content */
 #main {
-    padding: 5px;
-    padding-left:  15px;
-    padding-right: 15px;
+    padding: 20px;
     background-color: #ffffff;
-    border-radius: 0 0 5px 5px;
 }
 
 p.fungler {
