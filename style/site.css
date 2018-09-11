@@ -1,30 +1,134 @@
 /* general */
 
 body {
-    font-family: "Trebuchet MS", Verdana, sans-serif;
-    font-size: 16px;
-    background-color: #345885;
-    color: #696969;
-    padding: 5px;
+  font-family: 'Trebuchet MS', Verdana, sans-serif;
+  font-size: 16px;
+  background-color: #345885;
+  color: #696969;
+  padding: 5px;
 }
 
 h1 {
-    font-family: Georgia, serif;
-    border-bottom: 2px solid #345885;
-    color: #345885; 
-    font-size: 32px;
-    line-height: 1.5em;
-    margin-bottom: 30px;
+  font-family: Georgia, serif;
+  border-bottom: 2px solid #345885;
+  color: #345885;
+  font-size: 32px;
+  line-height: 1.5em;
+  margin-bottom: 30px;
 }
 
 /* page content */
 #main {
-    padding: 20px;
-    background-color: #ffffff;
+  padding: 20px;
+  background-color: #ffffff;
 }
 
 p.fungler {
-    padding:5px;
-    color:white;
-    background-color:darkblue;
+  padding: 5px;
+  color: white;
+  background-color: darkblue;
 }
+
+/*=================== GLITCH EFFECT ====================== */
+
+.glitch {
+  color: black;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0 auto;
+  position: relative;
+  top: 40%;
+}
+
+.glitch::before,
+.glitch::after {
+  background-color: white;
+  content: attr(data-content);
+  left: 0px;
+  overflow: hidden;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.glitch::before {
+  animation: effect 1.5s infinite linear;
+  left: 8px;
+  text-shadow: 2px 0 #00ffea;
+}
+
+.glitch::after {
+  animation: effect 0.75s infinite linear;
+  /* clip-path: polygon(20% 0, 100% 0, 100% 45%, 0 100%); */
+  left: 4px;
+  text-shadow: -2px 0 #fe3a7f;
+}
+
+/* can experiment to use clip-path property */
+@keyframes effect {
+  0% {
+    clip: rect(55px, 9999px, 56px, 0);
+  }
+  5% {
+    clip: rect(47px, 9999px, 30px, 0);
+  }
+  10% {
+    clip: rect(33px, 9999px, 36px, 0);
+  }
+  15% {
+    clip: rect(35px, 9999px, 9px, 0);
+  }
+  20% {
+    clip: rect(63px, 9999px, 59px, 0);
+  }
+  25% {
+    clip: rect(96px, 9999px, 98px, 0);
+  }
+  30% {
+    clip: rect(48px, 9999px, 77px, 0);
+  }
+  35% {
+    clip: rect(50px, 9999px, 34px, 0);
+  }
+  40% {
+    clip: rect(60px, 9999px, 72px, 0);
+  }
+  45% {
+    clip: rect(10px, 9999px, 81px, 0);
+  }
+  50% {
+    clip: rect(2px, 9999px, 60px, 0);
+  }
+  55% {
+    clip: rect(23px, 9999px, 89px, 0);
+  }
+  60% {
+    clip: rect(60px, 9999px, 73px, 0);
+  }
+  65% {
+    clip: rect(62px, 9999px, 30px, 0);
+  }
+  70% {
+    clip: rect(60px, 9999px, 73px, 0);
+  }
+  75% {
+    clip: rect(60px, 9999px, 87px, 0);
+  }
+  80% {
+    clip: rect(2px, 9999px, 14px, 0);
+  }
+  85% {
+    clip: rect(28px, 9999px, 87px, 0);
+  }
+  90% {
+    clip: rect(73px, 9999px, 50px, 0);
+  }
+  95% {
+    clip: rect(79px, 9999px, 70px, 0);
+  }
+  100% {
+    clip: rect(17px, 9999px, 79px, 0);
+  }
+}
+
+/*=================== GLITCH EFFECT END ====================== */
