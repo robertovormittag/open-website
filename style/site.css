@@ -28,3 +28,8 @@ p.fungler {
     color:white;
     background-color:darkblue;
 }
+p.morefun{
+    padding: 5px;
+    color: red;
+    background: yellow;
+}
