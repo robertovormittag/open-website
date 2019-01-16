@@ -33,3 +33,11 @@ p.morefun{
     color: red;
     background: yellow;
 }
+section {
+    font-size: 2em;
+    color: grey;
+    padding: inherit;
+}
+section p {
+    margin:  0;
+}
