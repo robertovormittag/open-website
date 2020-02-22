@@ -33,6 +33,10 @@ p.morefun{
     color: red;
     background: yellow;
 }
+p.DarrylPara{
+    color:cornflowerblue; 
+    font-size:18px;
+}
 section {
     font-size: 2em;
     color: grey;
