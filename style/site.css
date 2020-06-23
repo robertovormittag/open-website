@@ -33,6 +33,10 @@ p.morefun{
     color: red;
     background: yellow;
 }
+p.DarrylPara{
+    color:cornflowerblue; 
+    font-size:18px;
+}
 section {
     font-size: 2em;
     color: grey;
@@ -41,3 +45,17 @@ section {
 section p {
     margin:  0;
 }
+
+.indiao{
+    background-color: orange;
+    color: white;
+}
+.indiaw{
+    background-color: white;
+    color:black;
+}
+.indiag{
+    background-color: green;
+    color: white;
+}
+
