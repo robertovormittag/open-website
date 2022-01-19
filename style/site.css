@@ -23,6 +23,17 @@ h1 {
     background-color: #ffffff;
 }
 
+p.adamkolusz {
+	background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+	background-size: cover;
+	color: transparent;
+	-moz-background-clip: text;
+	-webkit-background-clip: text;
+	text-transform: uppercase;
+	font-size: 30px;
+	line-height: .75;
+	margin: 10px 0;
+}
 p.fungler {
     padding:5px;
     color:white;
