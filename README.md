@@ -12,3 +12,7 @@ This is my first practical Git exercise.
 
 Author: Jochen Wieland
 Date: 2026-11-23
+
+## GitHub Training
+
+My first successful git push
